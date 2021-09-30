@@ -1,0 +1,5 @@
+Bitte geben Sie den PIN-Code ein!
+Noch
+ Versuch(e).
+Sie haben den Geldautomaten betreten.
+Selbstzerstörung aktiviert.

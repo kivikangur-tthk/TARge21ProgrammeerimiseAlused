@@ -1,0 +1,5 @@
+Insert PIN-code:
+You have
+ tries left.
+You are in!
+Self-destruction activated:
