@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuhtlusArvutiga", "SuhtlusArvutiga\SuhtlusArvutiga.csproj", "{DBBDA781-AD73-4318-B037-17E788EAFD4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBBDA781-AD73-4318-B037-17E788EAFD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBDA781-AD73-4318-B037-17E788EAFD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBDA781-AD73-4318-B037-17E788EAFD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBDA781-AD73-4318-B037-17E788EAFD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B33A084-A36E-466A-82D1-D290A05450FE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Korrutustabel": {
+      "commandName": "Project",
+      "commandLineArgs": "30 22"
+    }
+  }
+}

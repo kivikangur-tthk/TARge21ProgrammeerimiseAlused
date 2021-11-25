@@ -1,3 +1,9 @@
+/trükialamprogramm.py
+/KT paberosa näide 1 ja 2.pdf
+/KT paberosa näide 1 ja 2.docx
+/KT paberosa näide 1 ja 2 parandatud.docx
+/Kontrolltöö-20211021T112919Z-001.zip
+
 ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -593,11 +599,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
-
-/trükialamprogramm.py
 /lahendus
-/KT paberosa näide 1 ja 2.pdf
-/KT paberosa näide 1 ja 2.docx
-/KT paberosa näide 1 ja 2 parandatud.docx
-/Kontrolltöö-20211021T112919Z-001.zip
-
