@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassiividMitmemõõtmeline", "MassiividMitmemõõtmeline\MassiividMitmemõõtmeline.csproj", "{3DE50D75-F8AB-4637-A6D6-1DB91DD4A403}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE50D75-F8AB-4637-A6D6-1DB91DD4A403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE50D75-F8AB-4637-A6D6-1DB91DD4A403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE50D75-F8AB-4637-A6D6-1DB91DD4A403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE50D75-F8AB-4637-A6D6-1DB91DD4A403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF28C172-E927-4030-AB2D-EE96486D8126}
+	EndGlobalSection
+EndGlobal
