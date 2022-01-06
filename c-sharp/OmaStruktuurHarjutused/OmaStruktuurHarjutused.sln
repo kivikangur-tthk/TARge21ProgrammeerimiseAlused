@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmaStruktuurHarjutused", "OmaStruktuurHarjutused\OmaStruktuurHarjutused.csproj", "{6430A9B6-239B-4B6F-AB8E-4C8B0FBC5E21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6430A9B6-239B-4B6F-AB8E-4C8B0FBC5E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6430A9B6-239B-4B6F-AB8E-4C8B0FBC5E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6430A9B6-239B-4B6F-AB8E-4C8B0FBC5E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6430A9B6-239B-4B6F-AB8E-4C8B0FBC5E21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {995AB1BB-6FEC-4308-9DAD-631D1BD16A38}
+	EndGlobalSection
+EndGlobal
