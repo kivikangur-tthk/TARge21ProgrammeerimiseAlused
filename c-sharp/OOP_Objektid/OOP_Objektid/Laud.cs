@@ -11,9 +11,9 @@ namespace OOP_Objektid
 		private int _jalgu;
 		private string _materjal;
 		private string _vastupidavus;
-		private int _pikkus;
-		private int _laius;
-		private int _kõrgus;
+		protected int _pikkus;
+		protected int _laius;
+		protected int _kõrgus;
 
 		public Laud(int pikkus, int laius, int kõrgus,string materjal="puit", string vastupidavus="hea", int jalgu=4)
 		{
@@ -43,6 +43,10 @@ namespace OOP_Objektid
 			Console.WriteLine($"Jalgu: {_jalgu}");
 			Console.WriteLine($"Kogupikkus: {LeiaJalgadeKogupikkus()}");
 			Console.WriteLine($"Pindala: {LeiaLauaPindala()}");
+		}
+		public override string ToString()
+		{
+			return $"Materjal: {_materjal}\nVastupidavus: {_vastupidavus}\nPikkus: {_pikkus}\nLaius: {_laius}\nKõrgus: {_kõrgus}\nJalgu: {_jalgu}\nKogupikkus: {LeiaJalgadeKogupikkus()}\nPindala: {LeiaLauaPindala()}";
 		}
 	}
 }

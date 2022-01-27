@@ -11,14 +11,25 @@ namespace OOP_Objektid
 		private static Random _random = new Random();
 		private string _värv;
 		private string _mark;
-		private int _istekohti;
+		protected int _istekohti;
 		private string _keretüüp;
 		private double _kiirendus;
 		private int _tippkiirus;
 		private bool _metallikVärv;
 		private string _istmeMaterjal;
 		private int _veljeDiameeter;
-		public Auto(string mark, string värv, int istekohti,string keretüüp="luukpära")
+
+		public string Värv
+		{
+			get { return AnnaVärvus(); }
+			//set
+			//{
+			//	if (value == "kollane") return;
+			//	_värv = value;
+			//}
+		}
+
+		public Auto(string mark, string värv, int istekohti, string keretüüp = "luukpära")
 		{
 			_mark = mark;
 			_värv = värv;
@@ -38,7 +49,7 @@ namespace OOP_Objektid
 			}
 			return tulemus;
 		}
-		public void MuudaVärv(string värv,bool onMetallik = false)
+		public void MuudaVärv(string värv, bool onMetallik = false)
 		{
 			_värv = värv;
 			_metallikVärv = onMetallik;
@@ -46,7 +57,7 @@ namespace OOP_Objektid
 		// Velgede diameetri muutmine
 		public void VahetaVeljed(int uusDiameeter)
 		{
-			if (uusDiameeter>0)
+			if (uusDiameeter > 0)
 			{
 				_veljeDiameeter = uusDiameeter;
 			}
@@ -73,10 +84,14 @@ namespace OOP_Objektid
 			Console.WriteLine($"Kiirendus: {_kiirendus}");
 			Console.WriteLine($"Tippkiirus: {_tippkiirus}");
 		}
-		public void TuuniMootorit()
+		public override string ToString()
+		{
+			return $"Värv: {AnnaVärvus()}\nMark: {_mark}\nKeretüüp: {_keretüüp}\nVeljesuurus: {_veljeDiameeter}\nIstekohti: {_istekohti}\nIstme materjal: {_istmeMaterjal}\nKiirendus: {_kiirendus}\nTippkiirus: {_tippkiirus}";
+		}
+		public virtual void TuuniMootorit()
 		{
 			var muutusProtsent = _random.Next(5) + _random.NextDouble();
-			if (_random.Next(2)==0)
+			if (_random.Next(2) == 0)
 			{
 				_kiirendus -= _kiirendus * muutusProtsent / 100;
 			}
@@ -93,7 +108,7 @@ namespace OOP_Objektid
 		{
 			string[] materjalid = { "linane", "veluur", "vinüül", "nahk", "alcantara", "veegan nahk" };
 			var praegusePositsioon = Array.IndexOf(materjalid, _istmeMaterjal);
-			if (praegusePositsioon == materjalid.Length-1)
+			if (praegusePositsioon == materjalid.Length - 1)
 			{
 				return false;
 			}
